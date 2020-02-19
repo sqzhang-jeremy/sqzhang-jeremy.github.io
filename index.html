@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="Jeremy&#39;s Blog">
+    <meta name="description" content="Jeremy&#39;s Blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title></title>
+    <title>Jeremy&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/medias/icon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -37,7 +37,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <span class="logo-span"></span>
+                    <span class="logo-span">Jeremy's Blog</span>
                 </a>
             </div>
             
@@ -174,7 +174,7 @@
 
     <div class="mobile-head bg-color">
         
-        <div class="logo-name"></div>
+        <div class="logo-name">Jeremy's Blog</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -372,7 +372,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                Jeremy&#39;s blog
+                subtitle
                 
             </div>
 
@@ -398,7 +398,8 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
 
 
