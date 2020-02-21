@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Jeremy&#39;s Blog">
-    <meta name="description" content="Jeremy&#39;s Blog">
+    <meta name="keywords" content="Category: blog, Jeremy&#39;s Blog">
+    <meta name="description" content="Category: blog | Jeremy&#39;s Blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Jeremy&#39;s Blog</title>
+    <title>Category: blog | Jeremy&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/medias/icon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -302,56 +302,9 @@
 
 </header>
 
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color:rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -375,210 +328,52 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>Start
-                </a>
-
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/sqzhang-jeremy" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:sqzhang.jeremy@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-    <a href="https://twitter.com/realJeremyZhang" class="tooltipped" target="_blank" data-tooltip="关注我的Twitter: https://twitter.com/realJeremyZhang" data-position="top" data-delay="50">
-        <i class="fab fa-twitter"></i>
-    </a>
-
-
-
-
-
-    <a href="https://weibo.com/zhangshiquan97" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/zhangshiquan97" data-position="top" data-delay="50">
-        <i class="fab fa-weibo"></i>
-    </a>
-
-
-
-
-
-</div>
-        </div>
     </div>
-
-    
 </div>
-
-<script>
-    // TODO 此处的轮播尚需优化，PC/Mobile 在触摸切换时都感觉相当不灵活
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-
-        function restartPlay() {
-            
-        };
-
-        
-    });
-</script>
-
-
 
 <main class="content">
 
     
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            放弃不难，但坚持一定很酷。——《解忧杂货铺》
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Post Categories
+            </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/blog/" title="blog: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F9EBEA;">blog
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+            </div>
         </div>
     </div>
 </div>
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-
-
-<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;Recommended Posts</div>
-
-<div class="row">
-
-    
-    
-    <div class="col s12 m6" >
-        <div class="post-card" style="background-image: url('https://cdn.jsdelivr.net/gh/sqzhang-jeremy/CDN/postimages/202002/20200221091249.png')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                    
-                </div>
-                <a href="/2020/02/21/Lecture-2019-nCOV-20200218/">
-                    <h3 class="post-title">Lecture_2019-nCOV_20200218</h3>
-                </a>
-                <p class="post-description">
-                    
-                        武汉金银潭医院樊艳青主任曾说过一句：“我告诉自己不要流泪，眼睛要用来看片子”
-                    
-                </p>
-                <a href="/2020/02/21/Lecture-2019-nCOV-20200218/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>Read more
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" >
-        <div class="post-card" style="background-image: url('/medias/featureimages/10.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                    
-                </div>
-                <a href="/2020/02/20/First-blog/">
-                    <h3 class="post-title">First blog</h3>
-                </a>
-                <p class="post-description">
-                    
-                        啊啊啊啊啊啊啊啊啊啊啊，终于把大体的搭好了，要开始写博客了，该走的弯路一点都没少……
-
-        document.querySele
-                    
-                </p>
-                <a href="/2020/02/20/First-blog/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>Read more
-                </a>
-            </div>
-        </div>
-    </div>
-    
-
-</div>
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
 
     
 
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
                     <a href="/2020/02/21/The-difference-between-Tags-and-Categories/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="https://cdn.jsdelivr.net/gh/sqzhang-jeremy/CDN/postimages/202002/20200221121035.jpeg" class="responsive-img" alt="The difference between Tags and Categories">
                             
                             <span class="card-title">The difference between Tags and Categories</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
@@ -622,116 +417,8 @@
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/02/21/Lecture-2019-nCOV-20200218/">
-                        <div class="card-image">
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/sqzhang-jeremy/CDN/postimages/202002/20200221091249.png" class="responsive-img" alt="Lecture_2019-nCOV_20200218">
-                            
-                            <span class="card-title">Lecture_2019-nCOV_20200218</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                武汉金银潭医院樊艳青主任曾说过一句：“我告诉自己不要流泪，眼睛要用来看片子”
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Jeremy Zhang
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/02/20/First-blog/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="First blog">
-                            
-                            <span class="card-title">First blog</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                啊啊啊啊啊啊啊啊啊啊啊，终于把大体的搭好了，要开始写博客了，该走的弯路一点都没少……
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => 
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-20
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Jeremy Zhang
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/02/19/hello-world/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Jeremy Zhang
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
         </div>
     </article>
-
 </main>
 
 

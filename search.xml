@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>The difference between Tags and Categories</title>
+      <link href="/2020/02/21/The-difference-between-Tags-and-Categories/"/>
+      <url>/2020/02/21/The-difference-between-Tags-and-Categories/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标签和分类的区别？"><a href="#标签和分类的区别？" class="headerlink" title="标签和分类的区别？"></a>标签和分类的区别？</h1><p>标签最显著的作用：</p><ul><li>一是传统意义上分类的作用，类似分类名称；</li><li>二是对文章内容进行一定程度的描述，类似于<strong>关键词</strong>。 </li></ul><p>标签和分类还有一些细微的区别： </p><ul><li>同一篇文章标签可以用多个，但通常只能属于一个分类；</li><li>标签一般是在写作完成后，根据文章大意进行添加的；</li><li>标签可以把文章中重点词语提炼出来，有关键词的意义，但是分类没有；</li><li>标签通常反映了您的主要关注点，比如财经、互联网、体育等等；</li><li>标签给了我们一条联系他人的纽带，通过标签可以找到您的“同好”。</li></ul><p>Reference:</p><p>[1]<a href="https://iask.sina.com.cn/b/13948619.html" target="_blank" rel="noopener">https://iask.sina.com.cn/b/13948619.html</a></p><p>Cover image by: <a href="https://huaban.com/pins/2618701579/" target="_blank" rel="noopener">https://huaban.com/pins/2618701579/</a> </p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Lecture_2019-nCOV_20200218</title>
       <link href="/2020/02/21/Lecture-2019-nCOV-20200218/"/>
       <url>/2020/02/21/Lecture-2019-nCOV-20200218/</url>
