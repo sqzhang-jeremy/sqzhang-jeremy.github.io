@@ -26,11 +26,11 @@ var precacheUrls = [];
 
   precacheUrls.push('/posts/9dbf.html');
 
+  precacheUrls.push('/posts/9d45.html');
+
   precacheUrls.push('/posts/6fdc.html');
 
   precacheUrls.push('/posts/3eeb.html');
-
-  precacheUrls.push('/posts/9d45.html');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":30};
