@@ -378,7 +378,7 @@ header .side-nav .social-link {
 
 .cover-btns {
     position: relative;
-    top: 39vh;
+    top: 49vh;/*39*若恢复subtitile*/
     text-align: center;
 }
 
@@ -414,14 +414,14 @@ header .side-nav .social-link {
 
 .cover-social-link {
     position: relative;
-    top: 23vh;
+    top: 34vh;/*若恢复subtitile*/
     width: 100%;
     text-align: center;
 }
 
 .cover-social-link a {
     padding: 0 20px;
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: #fff;
 }
 
