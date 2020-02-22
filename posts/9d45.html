@@ -72,12 +72,21 @@
     <a href="" class="waves-effect waves-light">
 
       
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      <i class="fas fa-file-text" style="zoom: 0.6;"></i>
       
       <span>Posts</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
     <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>TimeLines</span>
+        </a>
+      </li>
       
       <li>
         <a href="/tags">
@@ -97,15 +106,6 @@
         </a>
       </li>
       
-      <li>
-        <a href="/archives">
-          
-          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>TimeLines</span>
-        </a>
-      </li>
-      
     </ul>
     
   </li>
@@ -115,7 +115,7 @@
     <a href="" class="waves-effect waves-light">
 
       
-      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      <i class="fas fa-twitch" style="zoom: 0.6;"></i>
       
       <span>Favors</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
@@ -159,7 +159,7 @@
     
     <a href="/contact" class="waves-effect waves-light">
       
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      <i class="fas fa-paper-plane" style="zoom: 0.6;"></i>
       
       <span>Contact</span>
     </a>
@@ -204,12 +204,22 @@
 	  
 		<a href="javascript:;">
 			
-				<i class="fa-fw fas fa-archive"></i>
+				<i class="fa-fw fas fa-file-text"></i>
 			
 			Posts
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
             <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/archives " style="margin-left:50px";>
+				  
+				   <i class="fa fas fa-archive" style="position: absolute;left:28px" ></i>
+			      
+		          <span>TimeLines</span>
+                  </a>
+                </li>
               
                 <li>   
 				
@@ -230,16 +240,6 @@
 		          <span>Categories</span>
                   </a>
                 </li>
-              
-                <li>   
-				
-                  <a href="/archives " style="margin-left:50px";>
-				  
-				   <i class="fa fas fa-archive" style="position: absolute;left:28px" ></i>
-			      
-		          <span>TimeLines</span>
-                  </a>
-                </li>
                
             </ul>
           
@@ -249,7 +249,7 @@
 	  
 		<a href="javascript:;">
 			
-				<i class="fa-fw fas fa-list"></i>
+				<i class="fa-fw fas fa-twitch"></i>
 			
 			Favors
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
@@ -295,7 +295,7 @@
 	  
 		<a href="/contact" class="waves-effect waves-light">
 			
-			    <i class="fa-fw fas fa-comments"></i>
+			    <i class="fa-fw fas fa-paper-plane"></i>
 			
 			Contact
 		</a>
@@ -953,7 +953,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1582368905868')
+  navigator.serviceWorker.register('/sw.js?t=1582371446129')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
