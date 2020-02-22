@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>auto_open</title>
-      <link href="/posts/af7d.html"/>
-      <url>/posts/af7d.html</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>The difference between Tags and Categories</title>
       <link href="/posts/9d45.html"/>
       <url>/posts/9d45.html</url>
@@ -71,7 +58,7 @@
       <link href="/posts/6fdc.html"/>
       <url>/posts/6fdc.html</url>
       
-        <content type="html"><![CDATA[<p>啊啊啊啊啊啊啊啊啊啊啊，终于把大体的搭好了，要开始写博客了，该走的弯路一点都没少……</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>啊啊啊啊啊啊啊啊啊啊啊，终于把大体的框架搭好了，要开始写博客了，该走的弯路一点都没少……</p><p>为啥我老是那么喜欢较真，认准的事情一定要做下去，太难了</p><p>☹️☹️☹️</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       

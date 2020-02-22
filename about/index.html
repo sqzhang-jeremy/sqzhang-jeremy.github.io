@@ -314,23 +314,34 @@
 
 <div class="bg-cover pd-header about-cover">
     <div class="container">
-    <!-- <div class="row"> -->
-<!--     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2"> -->
-<!--         <div class="brand"> -->
-<!--             <div class="title center-align"> -->
-<!--                  -->
-<!--                 subtitle -->
-<!--                  -->
-<!--             </div> -->
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                Coding...
+                
+            </div>
 
-<!--             <div class="description center-align"> -->
-<!--                  -->
-<!--                  -->
-<!--                  -->
-<!--             </div> -->
-<!--         </div> -->
-<!--     </div> -->
-<!-- </div> -->
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['放弃不难，但坚持一定很酷','stay hungry, stay foolish'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script>
@@ -350,7 +361,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">5</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -380,7 +391,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">5</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -538,7 +549,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,5],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -772,7 +783,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1582342969369')
+  navigator.serviceWorker.register('/sw.js?t=1582343206625')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
