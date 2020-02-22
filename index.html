@@ -365,7 +365,18 @@
 
             <div class="description center-align">
                 
-                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['放弃很难，但坚持一定很酷','stay hungry, stay foolish'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
                 
             </div>
         </div>
@@ -381,7 +392,7 @@
 
             <div class="cover-btns">
                 <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>Start
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
                 </a>
 
                 
@@ -468,6 +479,7 @@
 
 
 
+
 <main class="content">
 
     
@@ -475,15 +487,6 @@
         <div class="container ">
             <div class="card">
                 <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            放弃不难，但坚持一定很酷。——《解忧杂货铺》
-        </div>
-    </div>
-</div>
                     
 
                     
@@ -866,7 +869,7 @@ $(function () {
     <!-- 回到顶部按钮 -->
 <div id="backTop" class="top-scroll">
     <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fas fa-arrow-up"></i>
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
 </div>
 
@@ -921,7 +924,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1582332732592')
+  navigator.serviceWorker.register('/sw.js?t=1582336265044')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
