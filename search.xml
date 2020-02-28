@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>blog by alicloud+centos+hexo</title>
+      <link href="/posts/8b21.html"/>
+      <url>/posts/8b21.html</url>
+      
+        <content type="html"><![CDATA[<p>云服务器的操作</p><h2 id="1配置安全组规则"><a href="#1配置安全组规则" class="headerlink" title="1配置安全组规则"></a>1配置安全组规则</h2><p>阿里云的服务器不支持80端口的访问，因此我们需要手动配置相关参数，否则我们不能正常访问服务器，这是好多人总结的经验，这是个坑。</p><p>阿里云服务器控制台-实例列表-管理-实例安全组-添加安全组规则</p><p><img src="/Users/zsq/Desktop/mysite/blog_photoes/1.png" alt="1"></p><p><img src="/Users/zsq/Desktop/mysite/blog_photoes/2.png" alt="2"></p><p><img src="/Users/zsq/Desktop/mysite/blog_photoes/3.png" alt="3"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Analysisi of DataLoader’s sourece code from Pytorch</title>
       <link href="/posts/2004.html"/>
       <url>/posts/2004.html</url>
