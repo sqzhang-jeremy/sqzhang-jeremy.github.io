@@ -1,0 +1,696 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="reading, Jeremy Zhang&#39;s Blog">
+    <meta name="description" content="reading | Jeremy Zhang&#39;s Blog">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>reading | Jeremy Zhang&#39;s Blog</title>
+    <link rel="icon" type="image/png" href="/medias/48.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+    
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Jeremy Zhang's Blog" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+<link rel="apple-touch-icon" href="">
+<meta name="theme-color" content="white"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <span class="logo-span">Jeremy Zhang's Blog</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu" style="width: 600px;">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Home</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Post</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Tag</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Category</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-camera-retro" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Timeline</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/Reading" class="waves-effect waves-light">
+      
+      <i class="fas fa-book-open" style="zoom: 0.6;"></i>
+      
+      <span>Reading</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/Portfolio" class="waves-effect waves-light">
+      
+      <i class="fas fa-palette" style="zoom: 0.6;"></i>
+      
+      <span>Portfolio</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/CV" class="waves-effect waves-light">
+      
+      <i class="fas fa-file-alt" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/About" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <div class="logo-name">Jeremy Zhang's Blog</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Home
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-archive"></i>
+			
+			Post
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/tags " style="margin-left:50px";>
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:28px" ></i>
+			      
+		          <span>Tag</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/categories " style="margin-left:50px";>
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:28px" ></i>
+			      
+		          <span>Category</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/archives " style="margin-left:50px";>
+				  
+				   <i class="fa fas fa-camera-retro" style="position: absolute;left:28px" ></i>
+			      
+		          <span>Timeline</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/Reading" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-book-open"></i>
+			
+			Reading
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/Portfolio" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-palette"></i>
+			
+			Portfolio
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/CV" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-file-alt"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/About" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Reading List | Jeremy Zhang</title>
+    
+    
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    
+        <!-- This site is optimized with the Yoast SEO plugin v20.0 - https://yoast.com/wordpress/plugins/seo/ -->
+        <link rel="canonical" href="https://sqzhang-jeremy.github.io/reading/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="2023 Reading List - Jeremy Zhang" />
+        <meta property="og:description" content="Reading List: The following is an ever-evolving list of books I&#8217;m hoping to read (or in many cases re-read) in 2023. Classics, sci-fi, nonfiction, or anything people highly recommend. Some are short stories, some are long books. I try to alternate very short books with long ones. Motivation for Selection: I noticed that in the past few years, I started reading a lot more nonfiction, and that it&#8217;s been a while since I revisited many of the books that had a big impact on my life (by Dostoevsky, Camus, Hesse, etc.) Also, an obvious giant gap in my reading has" />
+        <meta property="og:url" content="https://sqzhang-jeremy.github.io/reading/" />
+        <meta property="og:site_name" content="Jeremy Zhang" />
+        <meta property="article:modified_time" content="2023-01-30T16:53:52+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="4 minutes" />
+        <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://lexfridman.com/reading-list/","url":"https://lexfridman.com/reading-list/","name":"Reading List - Lex Fridman","isPartOf":{"@id":"https://lexfridman.com/#website"},"datePublished":"2022-12-31T09:24:11+00:00","dateModified":"2023-01-30T16:53:52+00:00","breadcrumb":{"@id":"https://lexfridman.com/reading-list/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://lexfridman.com/reading-list/"]}]},{"@type":"BreadcrumbList","@id":"https://lexfridman.com/reading-list/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lexfridman.com/"},{"@type":"ListItem","position":2,"name":"Reading List"}]},{"@type":"WebSite","@id":"https://lexfridman.com/#website","url":"https://lexfridman.com/","name":"Lex Fridman","description":"Research scientist at MIT working on human-centered artificial intelligence.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://lexfridman.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+        <!-- / Yoast SEO plugin. -->
+    
+    
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+    <script type="text/javascript">
+    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/lexfridman.com\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+    /*! This file is auto-generated */
+    !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+    </style>
+        <link rel='stylesheet' id='wp-block-library-css' href='https://lexfridman.com/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+    <style id='wp-block-library-theme-inline-css' type='text/css'>
+    .wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:"0 0 1em 0"}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+    </style>
+    <link rel='stylesheet' id='classic-theme-styles-css' href='https://lexfridman.com/wordpress/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+    <style id='global-styles-inline-css' type='text/css'>
+    body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #21759b;--wp--preset--color--dark-gray: #444;--wp--preset--color--medium-gray: #9f9f9f;--wp--preset--color--light-gray: #e6e6e6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+    .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+    :where(.wp-block-columns.is-layout-flex){gap: 2em;}
+    .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+    </style>
+    <link rel='stylesheet' id='cpsh-shortcodes-css' href='https://lexfridman.com/wordpress/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='toc-screen-css' href='https://lexfridman.com/wordpress/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2212' type='text/css' media='all' />
+    <link rel='stylesheet' id='megamenu-css' href='https://lexfridman.com/wordpress/wp-content/uploads/maxmegamenu/style.css?ver=1c45aa' type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css' href='https://lexfridman.com/wordpress/wp-includes/css/dashicons.min.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='megamenu-genericons-css' href='https://lexfridman.com/wordpress/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css?ver=2.2.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='megamenu-fontawesome-css' href='https://lexfridman.com/wordpress/wp-content/plugins/megamenu-pro/icons/fontawesome/css/font-awesome.min.css?ver=2.2.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='megamenu-fontawesome5-css' href='https://lexfridman.com/wordpress/wp-content/plugins/megamenu-pro/icons/fontawesome5/css/all.min.css?ver=2.2.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='twentytwelve-style-css' href='https://lexfridman.com/wordpress/wp-content/themes/twentytwelve/style.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='child-style-css' href='https://lexfridman.com/wordpress/wp-content/themes/twentytwelve-child/style.css?ver=2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='twentytwelve-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;display=fallback' type='text/css' media='all' />
+    <link rel='stylesheet' id='twentytwelve-block-style-css' href='https://lexfridman.com/wordpress/wp-content/themes/twentytwelve/css/blocks.css?ver=20190406' type='text/css' media='all' />
+    <link rel='stylesheet' id='tablepress-default-css' href='https://lexfridman.com/wordpress/wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='enlighterjs-css' href='https://lexfridman.com/wordpress/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=fDF2kCAEJuASksg' type='text/css' media='all' />
+    <script type='text/javascript' src='https://lexfridman.com/wordpress/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://lexfridman.com/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+    <link rel="https://api.w.org/" href="https://lexfridman.com/wp-json/" /><link rel="alternate" type="application/json" href="https://lexfridman.com/wp-json/wp/v2/pages/5339" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lexfridman.com/wordpress/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://lexfridman.com/wordpress/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 6.1.1" />
+    <link rel='shortlink' href='https://lexfridman.com/?p=5339' />
+    <link rel="alternate" type="application/json+oembed" href="https://lexfridman.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flexfridman.com%2Freading-list%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://lexfridman.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flexfridman.com%2Freading-list%2F&#038;format=xml" />
+    
+            <!-- GA Google Analytics @ https://m0n.co/ga -->
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-301574-1', 'auto');
+                ga('require', 'linkid');
+                ga('set', 'anonymizeIp', true);
+                ga('set', 'forceSSL', true);
+                ga('send', 'pageview');
+            </script>
+    
+        <script type="text/javascript">//<![CDATA[
+        function external_links_in_new_windows_loop() {
+        if (!document.links) {
+            document.links = document.getElementsByTagName('a');
+        }
+        var change_link = false;
+        var force = '';
+        var ignore = '';
+    
+        for (var t=0; t<document.links.length; t++) {
+            var all_links = document.links[t];
+            change_link = false;
+            
+            if(document.links[t].hasAttribute('onClick') == false) {
+            // forced if the address starts with http (or also https), but does not link to the current domain
+            if(all_links.href.search(/^http/) != -1 && all_links.href.search('lexfridman.com') == -1 && all_links.href.search(/^#/) == -1) {
+                // console.log('Changed ' + all_links.href);
+                change_link = true;
+            }
+                
+            if(force != '' && all_links.href.search(force) != -1) {
+                // forced
+                // console.log('force ' + all_links.href);
+                change_link = true;
+            }
+            
+            if(ignore != '' && all_links.href.search(ignore) != -1) {
+                // console.log('ignore ' + all_links.href);
+                // ignored
+                change_link = false;
+            }
+    
+            if(change_link == true) {
+                // console.log('Changed ' + all_links.href);
+                document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+                document.links[t].removeAttribute('target');
+            }
+            }
+        }
+        }
+        
+        // Load
+        function external_links_in_new_windows_load(func)
+        {  
+        var oldonload = window.onload;
+        if (typeof window.onload != 'function'){
+            window.onload = func;
+        } else {
+            window.onload = function(){
+            oldonload();
+            func();
+            }
+        }
+        }
+    
+        external_links_in_new_windows_load(external_links_in_new_windows_loop);
+        //]]></script>
+    
+    <script type="text/javascript"><!--
+    function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+    //-->
+    </script>
+        <style type="text/css" id="twentytwelve-header-css">
+            .site-title,
+        .site-description {
+            position: absolute;
+            clip: rect(1px 1px 1px 1px); /* IE7 */
+            clip: rect(1px, 1px, 1px, 1px);
+        }
+                </style>
+        <style type="text/css" id="custom-background-css">
+    body.custom-background { background-color: #ffffff; }
+    </style>
+        <link rel="icon" href="https://lexfridman.com/wordpress/wp-content/uploads/2017/06/cropped-lex-favicon-4-1-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://lexfridman.com/wordpress/wp-content/uploads/2017/06/cropped-lex-favicon-4-1-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://lexfridman.com/wordpress/wp-content/uploads/2017/06/cropped-lex-favicon-4-1-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://lexfridman.com/wordpress/wp-content/uploads/2017/06/cropped-lex-favicon-4-1-270x270.png" />
+    <style type="text/css">/** Mega Menu CSS: fs **/</style>
+    
+    </head>
+
+
+<body class="page-template-default page page-id-5339 custom-background wp-embed-responsive mega-menu-primary full-width custom-background-white custom-font-enabled">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div id="page" class="hfeed site">
+    <header id="masthead" class="site-header">
+        <hgroup>
+            <h1 class="site-title"><a target="_blank" href="https://lexfridman.com/" title="Lex Fridman" rel="home noopener">Lex Fridman</a></h1>
+            <h2 class="site-description">Research scientist at MIT working on human-centered artificial intelligence.</h2>
+        </hgroup>
+
+        <nav id="site-navigation" class="main-navigation">
+            <button class="menu-toggle">Menu</button>
+            <a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+            <div id="mega-menu-wrap-primary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"><div class='mega-toggle-block mega-spacer-block mega-toggle-block-1' id='mega-toggle-block-1'></div><div class='mega-toggle-block mega-logo-block mega-toggle-block-2' id='mega-toggle-block-2'><a class="mega-menu-logo" href="https://lexfridman.com" target="_self"><img class="mega-menu-logo" src="https://lexfridman.com/wordpress/wp-content/uploads/2018/09/mitlogo.gif" /></a></div><div class='mega-toggle-block mega-html-block mega-toggle-block-3' id='mega-toggle-block-3'><a target="_blank" rel="noopener" href="https://lexfridman.com">Lex Fridman</a></div></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-4' id='mega-toggle-block-4' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div></div><ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-has-icon mega-icon-left mega-menu-item-3323' id='mega-menu-item-3323'><a class="mega-custom-icon mega-menu-link" href="https://sqzhang-jeremy.github.io/" tabindex="0">Jeremy Zhang</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-3695' id='mega-menu-item-3695'><a class="mega-menu-link" href="/podcast" tabindex="0">Podcast</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-item-align-right mega-menu-item-3697' id='mega-menu-item-3697'><a class="mega-menu-link" target="_blank" rel="noopener" href="https://twitter.com/realJeremyZhang" tabindex="0">Twitter</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-item-align-right mega-menu-item-3698' id='mega-menu-item-3698'><a class="mega-menu-link" target="_blank" rel="noopener" href="https://www.youtube.com/@realJeremyZhang" tabindex="0">YouTube</a></li></ul></div>		</nav><!-- #site-navigation -->
+            </header><!-- #masthead -->
+
+    <div id="main" class="wrapper">
+
+    <div id="primary" class="site-content">
+        <div id="content" role="main">
+
+                            
+    <article id="post-5339" class="post-5339 page type-page status-publish hentry">
+        <header class="entry-header">
+                                                    <h1 class="entry-title">Reading List</h1>
+        </header>
+
+        <div class="entry-content">
+            <p><strong>Reading List:</strong> The following is an ever-evolving list of books I&#8217;m hoping to read (or in many cases re-read) in 2023. Classics, sci-fi, nonfiction, or anything people highly recommend. Some are short stories, some are long books. I try to alternate very short books with long ones.</p>
+<p><strong>Motivation for Selection: </strong>I noticed that in the past few years, I started reading a lot more nonfiction, and that it&#8217;s been a while since I revisited many of the books that had a big impact on my life (by Dostoevsky, Camus, Hesse, etc.) Also, an obvious giant gap in my reading has been science fiction, and so I added a bunch of sci-fi books that a lot of my good friends have been recommending. I hope to keep evolving this list based on suggestions and discussions. Here are direct links to posts about this on social media: <a href="https://www.reddit.com/r/lexfridman/comments/10045g8/book_reading_list_for_2023_post_from_lex/" target="_blank" rel="noopener">Reddit</a>, <a href="https://twitter.com/lexfridman/status/1609301085524578304" target="_blank" rel="noopener">Twitter</a>, <a href="https://www.youtube.com/post/UgkxnKi2CbLfbPYPCm-Ms2eqv9JgDoc0skJ8" target="_blank" rel="noopener">YouTube</a>, <a href="https://www.linkedin.com/feed/update/urn:li:activity:7015067968829104128/" target="_blank" rel="noopener">LinkedIn</a>, <a target="_blank" rel="noopener" href="https://www.instagram.com/p/Cm2QMuyOjbE/">Instagram</a>, <a href="https://www.facebook.com/lexfridman/posts/pfbid02GMuK4zM8jNb9kR5szEpWuUdkkW3jyd7hzuqfzzx7F1GAPE46hF3XzJnGPDnj3Bc6l" target="_blank" rel="noopener">Facebook</a>. I think Reddit and Twitter is probably the best place to make suggestions and do discussions.</p>
+<p><strong>Motivation for Sharing:</strong> I usually make a goal reading list for myself privately, but in this case&nbsp; I chose to do it publicly so that folks who are interested might join me on some of the books. That&#8217;s why I tried to set a schedule for it, with a target day to finish by, so people can sync up their involvement. Some stories/books take 1-2 hours, and some take 40+ hours to read (not counting the time to pause, think &amp; write down notes). If you join in, please take as long as you need to enjoy the book. The idea of many people reading the same book at the same time is exciting, like we&#8217;re taking the journey through that world together.&nbsp;</p>
+<p>Here&#8217;s the list as it currently stands, with goal dates of when to finish the book/story by:&nbsp;</p>
+<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#Finished_Reading_as_of_Sun_Jan_29"><span class="toc_number toc_depth_1">1</span> Finished Reading (as of Sun, Jan 29)</a></li><li><a href="#Reading_Soon"><span class="toc_number toc_depth_1">2</span> Reading Soon</a></li><li><a href="#Shorter-Term_Suggestions_I8217m_Considering"><span class="toc_number toc_depth_1">3</span> Shorter-Term Suggestions I&#8217;m Considering</a></li><li><a href="#Longer-Term_Suggestions_I8217m_Considering"><span class="toc_number toc_depth_1">4</span> Longer-Term Suggestions I&#8217;m Considering</a></li></ul></div>
+<h3><span id="Finished_Reading_as_of_Sun_Jan_29">Finished Reading (as of Sun, Jan 29)</span></h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=7Sk6lTLSZcA">Video</a> &#8211; <strong>1984</strong> by George Orwell</li>
+<li><strong>Hitchhiker&#8217;s Guide to the Galaxy</strong> by Douglas Adams</li>
+<li><strong>Brave New World</strong> by Aldous Huxley</li>
+<li><strong>The Stranger</strong> by Camus</li>
+</ul>
+<h3><span id="Reading_Soon">Reading Soon</span></h3>
+<p>Listed is a loose goal to finish the book by:</p>
+<ul>
+<li>Sun, Feb 5 &#8211; <strong>Meditations</strong> by Marcus Aurelius</li>
+<li>Sun, Feb 12 &#8211; <strong>On the Road</strong> by Jack Kerouac</li>
+<li>Sun, Feb 19 &#8211; <strong>Seven Brief Lessons on Physics</strong> by Carlo Rovelli</li>
+</ul>
+<h3><span id="Shorter-Term_Suggestions_I8217m_Considering">Shorter-Term Suggestions I&#8217;m Considering</span></h3>
+<ul>
+<li><strong>The Art of War</strong> by Sun Tzu</li>
+<li><strong>Old Man and The Sea</strong> by Hemingway</li>
+<li><strong>2001: A Space Odyssey</strong> by Arthur C Clarke</li>
+<li><strong>Animal Farm</strong> by George Orwell</li>
+<li><strong>Man&#8217;s Search for Meaning</strong> by Victor Frankel</li>
+<li><strong>Sapiens </strong>by Yuval Noah Harari</li>
+<li><strong>Metamorphosis, Hunger Artist</strong>&nbsp;by Franz Kafka</li>
+<li><strong>The Plague</strong> by Camus</li>
+<li><strong>Player of Games</strong> by Ian Banks</li>
+<li><strong>Fight Club</strong> by Chuck Palahniuk</li>
+<li><strong>The Little Prince</strong> by Antoine de Saint-Exupéry</li>
+<li><strong>Brothers Karamazov</strong> by Dostoevsky</li>
+<li><strong>Siddhartha</strong> by Herman Hesse</li>
+<li><strong>Dune</strong> by Frank Herbert</li>
+<li><strong>Frankenstein</strong> by Mary Shelley</li>
+</ul>
+<h3><span id="Longer-Term_Suggestions_I8217m_Considering">Longer-Term Suggestions I&#8217;m Considering</span></h3>
+<ul>
+<li><strong>Foundation</strong> by Isaac Asimov</li>
+<li><strong>The Dead</strong> by James Joyce</li>
+<li><strong>The Yellow Wallpaper</strong> by Charlotte Perkins Gilman</li>
+<li><strong>Ward No. 6</strong> by Anton Chekhov</li>
+<li><strong>Anthem</strong> by Ayn Rand</li>
+<li><strong>The Book of Five Rings</strong> by Miyamoto Musashi</li>
+<li><strong>The Four Agreements</strong> by Don Miguel Ruiz</li>
+<li><strong>Nightfall, Last Question</strong> by Isaac Asimov</li>
+<li><strong>The Little Trilogy</strong> by Anton Chekhov</li>
+<li><strong>The Nose, The Overcoat</strong> by Gogol</li>
+<li><strong>Heart of Darkness</strong> by Joseph Conrad</li>
+<li><strong>Notes from Underground</strong> by Dostoevsky</li>
+<li><strong>The Giver</strong> by Lois Lowry</li>
+<li><strong>The Prince</strong> by Machiavelli</li>
+<li><strong>Disgrace</strong> by J. M. Coetzee</li>
+<li><strong>Fahrenheit 451</strong> by Ray Bradbury</li>
+<li><strong>The Alchemist</strong> by Paulo Coelho</li>
+<li><strong>The Road</strong> by Cormac McCarthy</li>
+<li><strong>Where the Red Fern Grows</strong> by Wilson Rawls</li>
+<li><strong>A Good Man Is Hard to Find</strong> by Flannery O&#8217;Connor</li>
+<li><strong>Beyond Good and Evil</strong> by Friedrich Nietzsche</li>
+<li><strong>On Writing</strong> by Stephen King</li>
+<li><strong>Solaris</strong> by Stanislaw Lem</li>
+<li><strong>Childhood&#8217;s End</strong> by Arthur C Clarke</li>
+<li><strong>Do Androids Dream of Electric Sheep?</strong> by Philip K Dick</li>
+<li><strong>Flowers for Algernon</strong> by Daniel Keyes</li>
+<li><strong>I, Robot</strong> by Isaac Asimov</li>
+<li><strong>The Diary of a Young Girl</strong> by Anne Frank</li>
+<li><strong>Master and Margarita</strong> by Mikhail Bulgakov</li>
+<li><strong>Ender&#8217;s Game</strong> by Orson Scott Card</li>
+<li><strong>Surely You&#8217;re Joking, Mr. Feynman</strong> by Richard Feynman</li>
+<li><strong>Dead Souls</strong> by Gogol</li>
+<li><strong>12 Rules for Life</strong> by Jordan Peterson</li>
+<li><strong>Snow Crash</strong> by Neal Stephenson</li>
+<li><strong>The Moon Is a Harsh Mistress</strong> by Robert Heinlein</li>
+<li><strong>Three-Body Problem</strong> by Cixin Liu</li>
+<li><strong>Stranger in a Strange Land</strong> by Robert Heinlein</li>
+<li><strong>Godel, Escher, Bach</strong> by Douglas R. Hofstadter</li>
+<li><strong>The Idiot</strong> by Dostoevsky</li>
+</ul>
+                    </div><!-- .entry-content -->
+        <footer class="entry-meta">
+                    </footer><!-- .entry-meta -->
+    </article><!-- #post -->
+                
+<div id="comments" class="comments-area">
+
+    
+    
+    
+</div><!-- #comments .comments-area -->
+            
+        </div><!-- #content -->
+    </div><!-- #primary -->
+
+
+        </div><!-- #main .wrapper -->
+    <footer id="colophon" role="contentinfo">
+        <div class="site-info">
+                                    <a target="_blank" rel="noopener" href="https://wordpress.org/" class="imprint" title="Semantic Personal Publishing Platform">
+                Proudly powered by LexFridman			</a>
+        </div><!-- .site-info -->
+    </footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' id='toc-front-js-extra'>
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://lexfridman.com/wordpress/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2212' id='toc-front-js'></script>
+<script type='text/javascript' src='https://lexfridman.com/wordpress/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205' id='twentytwelve-navigation-js'></script>
+<script type='text/javascript' src='https://lexfridman.com/wordpress/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=fDF2kCAEJuASksg' id='enlighterjs-js'></script>
+<script type='text/javascript' id='enlighterjs-js-after'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"enlighter","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type='text/javascript' src='https://lexfridman.com/wordpress/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' id='megamenu-js-extra'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://lexfridman.com/wordpress/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.1' id='megamenu-js'></script>
+<script type='text/javascript' src='https://lexfridman.com/wordpress/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.2.7' id='megamenu-pro-js'></script>
+</body>
+    
+    
+
+<iframe src="https://v1.embednotion.com/embed/ccd8ac71fcca4afdaa0a1713294ee819"></iframe>  
+    <style>  
+        iframe { width: 100%; height: 500px; border: 2px solid #ccc; border-radius: 10px; padding: 5px; }  
+    </style>
+
+<div class="container row center-align" 
+    style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right" style="width: 1147.5px;">
+            Proudly Powered by  <a href="https://lexfridman.com/reading-list/" target="_blank" color="#000"><u>Lex Fridman Reading-list</u></a>
+        </div>
+    </div> 
+
+
+
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align" 
+        style="margin-bottom:'15px';">
+        <div class="col s12 m8 l8 copy-right" style="width: 1147.5px;">
+            &nbsp;&copy;
+            
+                <span id="year">2020-2023</span>
+            
+            <a href="http://sqzhang-jeremy.github.io " target="_blank"><u>Jeremy Zhang</u></a>
+            All rights reserved.
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<!-- <div class="progress-bar"></div> --> 
+
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up scroll-down-effects"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+    
+
+<script type="text/javascript" color="122 103 238" opacity='0.6' zIndex="-2" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
