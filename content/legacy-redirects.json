@@ -1,0 +1,21 @@
+{
+  "categories/Lecture/index.html": "/writing/",
+  "categories/Software/index.html": "/writing/",
+  "categories/blog/index.html": "/writing/",
+  "categories/Pytorch/index.html": "/writing/",
+  "tags/Learning-Notes/index.html": "/writing/",
+  "tags/Job/index.html": "/writing/",
+  "tags/hexo/index.html": "/writing/",
+  "tags/Ubuntu/index.html": "/writing/",
+  "tags/Medical-Imaging/index.html": "/writing/",
+  "tags/Talk/index.html": "/writing/",
+  "archives/2022/index.html": "/writing/",
+  "archives/2021/index.html": "/writing/",
+  "archives/2020/index.html": "/writing/",
+  "archives/2020/03/index.html": "/writing/",
+  "archives/2020/02/index.html": "/writing/",
+  "archives/2021/11/index.html": "/writing/",
+  "archives/2021/09/index.html": "/writing/",
+  "archives/2022/04/index.html": "/writing/",
+  "podcast/index.html": "/personal/"
+}
