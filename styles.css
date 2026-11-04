@@ -13,3 +13,6 @@
 /* Original landscape mark, kept at its native scale for a crisp small logo. */
 .brand{display:inline-flex;align-items:center;flex-shrink:0}.brand img{width:40px;height:40px;border-radius:9px}
 @media(max-width:680px){.brand img{width:34px;height:34px;border-radius:8px}}
+
+/* Video previews keep the original aspect ratio at every screen width. */
+.video-preview{position:relative;aspect-ratio:16/9;width:100%;min-width:0;background:#e5e7dd;border-radius:4px;overflow:hidden}.video-preview iframe{display:block;width:100%;height:100%;border:0}.social-video-preview{min-width:0;width:100%}.social-video-preview .twitter-tweet{margin:0 auto!important;max-width:100%!important;min-width:0!important}.social-video-preview iframe{max-width:100%!important;min-width:0!important}.social-video-preview blockquote{padding:28px;background:#e1e6df;border-radius:4px}.social-video-preview blockquote a{text-decoration:underline;text-underline-offset:4px}.case-visual .social-video-preview{max-width:550px;margin:0 auto}
