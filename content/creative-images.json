@@ -1,34 +1,50 @@
 [
   {
     "src": "/assets/archive-d448487ef511.png",
-    "alt": "PKUSZ Boxing logo"
+    "alt": "PKUSZ Boxing logo",
+    "width": 1080,
+    "height": 1080
   },
   {
     "src": "/assets/archive-203690108719.png",
-    "alt": "Match1"
+    "alt": "Match1",
+    "width": 4032,
+    "height": 2274
   },
   {
     "src": "/assets/archive-39b4f813bb7c.png",
-    "alt": "Match2"
+    "alt": "Match2",
+    "width": 4608,
+    "height": 2736
   },
   {
     "src": "/assets/archive-093bc7904205.png",
-    "alt": "Match3"
+    "alt": "Match3",
+    "width": 4032,
+    "height": 2277
   },
   {
     "src": "/assets/archive-51cf81b58a47.jpeg",
-    "alt": "HAITC Cafe"
+    "alt": "HAITC Cafe",
+    "width": 1280,
+    "height": 1810
   },
   {
     "src": "/assets/archive-379f711ac90b.jpg",
-    "alt": "Cafe1"
+    "alt": "Cafe1",
+    "width": 1440,
+    "height": 1080
   },
   {
     "src": "/assets/archive-eac9fb716e70.jpg",
-    "alt": "Cafe2"
+    "alt": "Cafe2",
+    "width": 1440,
+    "height": 1080
   },
   {
     "src": "/assets/archive-3d1dd74cb69f.jpg",
-    "alt": "Cafe3"
+    "alt": "Cafe3",
+    "width": 1440,
+    "height": 1080
   }
 ]
