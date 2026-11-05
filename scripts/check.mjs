@@ -13,5 +13,6 @@ if(sectionOrder.join(',') !== 'technical,teaching,creative') errors.push('Portfo
 for(const label of ['01 / TECHNOLOGY & RESEARCH','02 / TEACHING & MENTORING','03 / FILM, DESIGN & COMMUNITY']){
  if(!portfolio.includes(label)) errors.push(`Portfolio section label missing: ${label}`);
 }
+if(!/href="\/styles\.css\?v=[a-f0-9]{12}"/.test(portfolio)) errors.push('Portfolio stylesheet must include its content version.');
 if(!/<a class="student-showcase-card" href="\/comp90018\/"/.test(portfolio)) errors.push('Portfolio student showcase link is missing.');
 await walk(root);console.log(`Checked ${pages} HTML pages and ${links} local references.`);if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log('All local references resolve.');
