@@ -1,0 +1,58 @@
+[
+  {
+    "year": 2026,
+    "tutorials": [
+      {"label": "Tutorial 1", "groups": [
+        {"group": 1, "title": "Lost Treasures", "video": "shITf6p-5YA"},
+        {"group": 2, "title": "EcoStep", "video": "ODWOSrKelSY"},
+        {"group": 3, "title": "RepMate", "video": "FnYHgDI7Rc0"},
+        {"group": 4, "title": "The Focus", "video": "UKWCRROmR8Y"},
+        {"group": 5, "title": "RoamMate", "video": "t_pYTVe_FVQ"}
+      ]}
+    ]
+  },
+  {
+    "year": 2025,
+    "tutorials": [
+      {"label": "Tutorial 2", "groups": [
+        {"group": 1, "title": "WatchMates", "video": "19LNcwfxx1k"},
+        {"group": 2, "title": "MyPlant", "video": "dRbSQwQZ8uY"},
+        {"group": 3, "title": "Vines", "video": "Tzo7VmlJ2wA"}
+      ]},
+      {"label": "Tutorial 5", "groups": [
+        {"group": 1, "title": "Beat Stride", "video": "Zmxd0l0h0KE"},
+        {"group": 2, "title": "The Scavenger Hunt", "video": "QERjGjKnv9Y"},
+        {"group": 3, "title": "Social app", "video": "8KYXwdhpzyo"},
+        {"group": 4, "title": "FolkFoto", "video": "VeQBjwtV0Lw"},
+        {"group": 5, "title": "Context-Aware Playlist", "video": "2ozlnPfikCg"}
+      ]},
+      {"label": "Tutorial 7", "groups": [
+        {"group": 1, "title": "Health Assistant", "video": "8RVtAeq4gg0"},
+        {"group": 2, "title": "TrueMatch", "videoNote": "Demo requires access"},
+        {"group": 3, "title": "Knight Run!", "video": "n4d-v2K2Hg8"},
+        {"group": 4, "title": "Weight management and fitness", "video": "py0sNxrCEoo"}
+      ]}
+    ]
+  },
+  {
+    "year": 2024,
+    "tutorials": [
+      {"label": "Tutorial T01/01", "groups": [
+        {"group": 1, "title": "Museumholic", "video": "zsK3osu_J6w"},
+        {"group": 2, "title": "Health4U", "video": "hcCgCunRuGw"},
+        {"group": 3, "title": "PulseStep", "video": "qKXtR9WFLuE"}
+      ]},
+      {"label": "Tutorial T01/13", "groups": [
+        {"group": 1, "title": "Chase Frenzy", "video": "qE9dye71G4U"},
+        {"group": 2, "title": "Step-powered sprite battle game", "video": "cCzgv_2k3yM"},
+        {"group": 3, "title": "AOMUS", "video": "vXpuy2BhR6Y"}
+      ]},
+      {"label": "Tutorial T01/12", "groups": [
+        {"group": 1, "title": "First Responder", "video": "Q3VkWaxfOHI"},
+        {"group": 2, "title": "Catch Me If You Can", "video": "RCoNr0BwDbg"},
+        {"group": 3, "title": "OrderFoodOL", "video": "OBj4DpSxZqM"},
+        {"group": 4, "title": "RideRadar", "video": "wxKHdJ_5Iw0"}
+      ]}
+    ]
+  }
+]
