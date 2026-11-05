@@ -56,3 +56,43 @@
 
 /* Reserve media space so section links stay aligned while previews load. */
 .creative-row .social-video-preview{aspect-ratio:16/9;display:grid;align-items:center}
+
+.parking-showcase{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:center;gap:clamp(20px,5vw,64px);padding:clamp(20px,4vw,50px);background:#efeee5;border-radius:5px}
+.parking-showcase h2{font-size:clamp(40px,6vw,72px);letter-spacing:-.04em;margin:12px 0}
+.parking-showcase-copy p{max-width:32ch;margin-bottom:22px}
+.parking-showcase-figure{margin:0}
+.parking-showcase-figure img{width:100%;height:auto;border-radius:5px}
+.parking-showcase-figure figcaption{color:var(--muted);font-size:12px;margin-top:8px}
+@media(max-width:680px){.parking-showcase{grid-template-columns:minmax(0,1fr)}}
+.case-recording{margin:0 0 24px;border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.case-recording .video-preview{border-radius:0}
+.case-recording figcaption{padding:15px 18px;background:#f3f3ec}
+.case-recording figcaption p{font-size:14px;margin:4px 0}
+.case-feature-video{max-width:900px;margin:0 auto}
+.case-steps li+li{margin-top:10px}
+.prose .case-results{display:table;width:100%;table-layout:fixed}
+.case-results caption{text-align:left;color:var(--muted);margin-bottom:8px}
+.case-results thead{background:#eceaf1}
+.case-results tbody th{text-align:left}
+@media(max-width:680px){.case-results th,.case-results td{padding:6px}}
+
+.seminar-intro h1{max-width:24ch;font-size:clamp(36px,5.5vw,66px);line-height:1.04;letter-spacing:-.04em}
+
+.video-poster{position:relative;display:block;width:100%;height:100%;background:#242622}
+.video-poster img{width:100%;height:100%;object-fit:contain}
+.video-poster span{position:absolute;left:50%;bottom:8%;transform:translateX(-50%);padding:8px 16px;border-radius:5px;background:#242622;color:#fff;white-space:nowrap;font-size:14px}
+.video-poster:hover span{background:#3d423a}
+.video-poster:focus-visible{outline-offset:-4px;outline-color:#fff}
+
+.research-cover{display:grid;grid-template-rows:minmax(0,1fr);place-items:center;padding:clamp(12px,3vw,32px);background:#eeebe3}
+.research-cover img{width:100%;height:100%;object-fit:contain;border-radius:3px}
+.project-heading .circle-link{flex-shrink:0;margin-left:12px}
+
+.parking-cover{background:#efeee5}
+.parking-cover img{width:100%;height:100%;object-fit:contain}
+
+.case-section-links{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}
+.case-paper-figure{margin:24px 0;border:1px solid var(--line);border-radius:5px;background:#fff;overflow:hidden}
+.prose .case-paper-figure img{width:100%;height:auto;max-height:none;margin:0}
+.case-paper-figure figcaption{padding:12px 16px;background:#f3f3ec;color:var(--muted);font-size:14px}
+.case-results th,.case-results td{overflow-wrap:anywhere;vertical-align:top}

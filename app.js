@@ -6,3 +6,17 @@ filters.forEach(button=>button.addEventListener('click',()=>{
  const result=document.getElementById('result-count');if(result)result.textContent=`${count} ${count===1?'article':'articles'}`;
 }));
 document.getElementById('print-cv')?.addEventListener('click',()=>window.print());
+
+document.querySelectorAll('[data-video-preview]').forEach(link => {
+  link.addEventListener('click', event => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    const player = document.createElement('iframe');
+    player.src = link.dataset.videoPreview;
+    player.title = link.getAttribute('aria-label');
+    player.referrerPolicy = 'strict-origin-when-cross-origin';
+    player.allowFullscreen = true;
+    link.replaceWith(player);
+    player.focus();
+  });
+});

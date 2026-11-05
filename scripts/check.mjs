@@ -10,7 +10,7 @@ const navTargets = [...sectionNav.matchAll(/href="([^"]+)"/g)].map(m=>m[1]);
 const sectionOrder = [...portfolio.matchAll(/<section id="(technical|teaching|creative)"/g)].map(m=>m[1]);
 if(navTargets.join(',') !== '#technical,#teaching,#creative') errors.push('Portfolio navigation must be Technical, Teaching, Creative.');
 if(sectionOrder.join(',') !== 'technical,teaching,creative') errors.push('Portfolio sections must be Technical, Teaching, Creative.');
-for(const label of ['01 / TECHNOLOGY & RESEARCH','02 / TEACHING & MENTORING','03 / FILM, DESIGN & COMMUNITY']){
+for(const label of ['01 / PRODUCTS & RESEARCH','02 / TEACHING & MENTORING','03 / FILM, DESIGN & COMMUNITY']){
  if(!portfolio.includes(label)) errors.push(`Portfolio section label missing: ${label}`);
 }
 if(!/href="\/styles\.css\?v=[a-f0-9]{12}"/.test(portfolio)) errors.push('Portfolio stylesheet must include its content version.');
